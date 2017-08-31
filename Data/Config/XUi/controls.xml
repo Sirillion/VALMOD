@@ -1,6 +1,6 @@
 <controls>
 
-<!-- <<< SMX A16.3B3eR2 START - BY SIRILLION >>> -->
+<!-- <<< SMX A16.3B12R1 START - BY SIRILLION >>> -->
 
 	<SMX_tb_item_stack_uf1>
 		<rect controller="ItemStack" style="SMXTBItemStack, hover" collider_scale="1.1">
@@ -79,8 +79,8 @@
 			<label depth="2" pos="45,-5" width="280" height="30" text="{buffname|once}  [DECEA3]{buffdisplayinfo}[-]" color="[white]" font_size="22" pivot="topleft" effect="outline" />
 		</panel>
 	</SMX_active_buff_entry2>
-
-<!-- <<< SMX A16.3B3eR2 END - BY SIRILLION >>> -->
+	
+<!-- <<< SMX A16.3B12R1 END - BY SIRILLION >>> -->
 
 	<slider>
 		<rect depth="1" controller="Slider" height="24">

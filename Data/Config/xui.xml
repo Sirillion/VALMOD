@@ -81,7 +81,7 @@
 			<window name="dragAndDropItemStack" />
 		</window_group>
 		
-<!-- <<< SMX A16.3B3eR2 START - BY SIRILLION >>> -->
+<!-- <<< SMX A16.3B12R1 START - BY SIRILLION >>> -->
 		
 		<window_group name="compass" actionSet="false">
 <!--		<window name="SMXCompass1SMX" anchor="CenterTop" />	-->			<!-- SMX UI -->					<!-- Disable this if you want to use the VALMOD or SIRMOD designs -->
@@ -91,13 +91,15 @@
 			<window name="SMXDayTimeFrame1SMX" anchor="LeftTop" />			<!-- SMX & VALMOD UI -->		<!-- Disable this if you want to use the SIRMOD design -->
 <!--		<window name="SMXDayTimeFrame3SIRMOD" /> -->					<!-- SIRMOD UI -->				<!-- Disable this if you want to use SMX or VALMOD designs -->
 <!--		<window name="SMX" anchor="RightTop" />	-->						<!-- SMX UI -->					<!-- Disable this if you don't want the SMX - Enhanced logo -->
+<!--		<window name="SIRMOD" anchor="RightTop" /> -->					<!-- SIRMOD UI -->				<!-- Disable this if you don't want the SIRMOD logo -->
 			<window name="VALMOD" anchor="RightTop" /> 						<!-- VALMOD UI -->				<!-- Disable this if you don't want the VALMOD fedora -->
+<!--		<window name="TRUESURVIVAL" anchor="RightTop" /> -->			<!-- TS UI -->					<!-- Disable this if you don't want the TRUE SURVIVAL logo  -->
 <!--		<window name="SMXLevelXPUF1SMX" anchor="LeftTop" /> -->			<!-- SMX UI -->					<!-- Disable this if you want to use the VALMOD or SIRMOD designs -->
 			<window name="SMXLevelXPUF2VALMOD" anchor="LeftTop" /> 			<!-- VALMOD UI -->				<!-- Disable this if you want to use the SMX or SIRMOD designs -->
 <!--		<window name="SMXLevelXPUF3SIRMOD" anchor="LeftTop" /> -->		<!-- SIRMOD UI -->				<!-- Disable this if you want to use the SMX or VALMOD designs -->
 		</window_group>
 		
-<!-- <<< SMX A16.3B3eR2 END - BY SIRILLION >>> -->
+<!-- <<< SMX A16.3B12R1 END - BY SIRILLION >>> -->
 		
 		<window_group name="toolTip" actionSet="false">
 			<window name="toolTip" />
@@ -116,7 +118,7 @@
 			<window name="windowTimer"/>
 		</window_group>
 		
-<!-- <<< SMX A16.3B3eR2 START - BY SIRILLION >>> -->
+<!-- <<< SMX A16.3B12R1 START - BY SIRILLION >>> -->
 		
 		<window_group name="toolbelt" actionSet="false">
 <!--		<window name="SMXToolbelt1SMX" anchor="CenterBottom" /> -->		<!-- SMX UI -->					<!-- Disable this if you want to use the VALMOD or SIRMOD designs -->
@@ -148,7 +150,7 @@
 <!--		<window name="windowQuestTracker" anchor="RightTop" /> -->		<!-- STANDARD UI -->			<!-- Enable this for 7DTD standard QUEST TRACKER. Disable all of the above!(Between this and the STANDARD UI frame above) -->
 		</window_group>
 		
-<!-- <<< SMX A16.3B3eR2 END - BY SIRILLION >>> -->		
+<!-- <<< SMX A16.3B12R1 END - BY SIRILLION >>> -->		
 		
 		<window_group name="vehicle" controller="XUiC_VehicleWindowGroup">
 			<window name="windowVehicle"/>
@@ -268,16 +270,17 @@
 			<window name="spawnMenu" />
 		</window_group>
 		
-<!-- <<< SMX A16.3B3eR2 START - BY SIRILLION >>> -->		
+<!-- <<< SMX A16.3B12R1 START - BY SIRILLION >>> -->		
 		
 		<window_group name="ingameMenu">
 <!--		<window name="ingameMenu" /> -->
 <!--		<window name="SMXingameMenu" /> -->
+<!--		<window name="SIRMODingameMenu" /> -->
 			<window name="VALMODingameMenu" />
-
+<!--		<window name="TRUESURVIVALingameMenu" /> -->
 		</window_group>
 		
-<!-- <<< SMX A16.3B3eR2 END - BY SIRILLION >>> -->
+<!-- <<< SMX A16.3B12R1 END - BY SIRILLION >>> -->
 		
 		<window_group name="woPropsSleeperVolume">
 			<window name="woPropsSleeperVolume" />

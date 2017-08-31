@@ -1,6 +1,6 @@
 <windows>
 
-<!-- <<< SMX A16.3B3eR2 START - BY SIRILLION >>> -->
+<!-- <<< SMX A16.3B12R1 START - BY SIRILLION >>> -->
 
 <!-- >>> LOGO & SERVER INFORMATION >>> -->
 
@@ -11,12 +11,22 @@
 		<texture name="SMX" depth="0" size="250,33" texture="@file:Mods\SMX\Textures\Misc\smxhudlogo.png" material="Materials/Transparent Colored" pos="-320,-2" />
 		<label name="SMXServerInfo1" depth="0" size="250,27" text="" font_size="20" effect="outline" color="[green]" justify="center" pos="-610,-8" overflow="resizeheight" />
 	</window>
+
+	<window name="SIRMOD">
+		<texture name="SIRMOD" depth="0" size="250,33" texture="@file:Mods\SMX\Textures\Misc\smhudlogo.png" material="Materials/Transparent Colored" pos="-320,-2" />
+		<label name="SMXServerInfo1" depth="0" size="250,27" text="" font_size="20" effect="outline" color="[green]" justify="center" pos="-610,-8" overflow="resizeheight" />
+	</window>
 	
 	<window name="VALMOD"> <!-- SIRILLION: VALMAR, I created a new main menu windows and added some custom graphics to it. I moved the version information there. It is at the end of the SMX section. -->
 		<texture name="VALMOD" depth="0" size="250,33" texture="@file:Mods\SMX\Textures\Misc\vmhudlogo.png" material="Materials/Transparent Colored" pos="-320,-2" />
 		<label name="SMXServerInfo1" depth="0" size="250,27" text="" font_size="20" effect="outline" color="[green]" justify="center" pos="-610,-8" overflow="resizeheight" />
 	</window>
 
+	<window name="TRUESURVIVAL">
+		<texture name="TRUESURVIVAL" depth="0" size="250,33" texture="@file:Mods\SMX\Textures\Misc\tshudlogo.png" material="Materials/Transparent Colored" pos="-320,-2" />
+		<label name="SMXServerInfo1" depth="0" size="250,27" text="" font_size="20" effect="outline" color="[green]" justify="center" pos="-610,-8" overflow="resizeheight" />
+	</window>
+	
 <!-- <<< LOGO & SERVER INFORMATION <<< -->
 
 <!-- >>> UNIT FRAMES >>> -->
@@ -575,6 +585,15 @@
 		</grid>
 	</window>
 
+	<window name="SIRMODingameMenu" anchor="CenterCenter" pos="-125,200" width="250" height="200" controller="InGameMenuWindow" cursor_area="true">
+		<texture name="SMX" depth="0" size="788,788" texture="@file:Mods\SMX\Textures\Misc\smmenulogo.png" material="Materials/Transparent Colored" pos="-268,290" />
+		<grid name="buttons" pos="0, -100" cols="1" width="250" cell_width="250" cell_height="56" arrangement="vertical" repeat_content="false" >
+			<simplebutton name="btnOptions" depth="3" width="250" height="46" caption_key="xuiMenuOptions" font_size="40" />
+			<simplebutton name="btnSave" depth="3" width="250" height="46" caption_key="xuiMenuSave" font_size="40" />
+			<simplebutton name="btnExit" depth="3" width="250" height="46" caption_key="xuiMenuExit" font_size="40" />
+		</grid>
+	</window>
+	
 	<window name="VALMODingameMenu" anchor="CenterCenter" pos="-125,200" width="250" height="200" controller="InGameMenuWindow" cursor_area="true">
 		<texture name="VALMOD" depth="0" size="788,788" texture="@file:Mods\SMX\Textures\Misc\vmmenulogo.png" material="Materials/Transparent Colored" pos="-268,290" />
 		<label name="VALMODVersion" pos="190, -5" depth="0" size="250,33" text="V5.02" font_size="32" effect="outline" color="[white]" justify="center" /> <!-- SIRILLION: VALMAR, change version here! -->
@@ -584,10 +603,20 @@
 			<simplebutton name="btnExit" depth="3" width="250" height="46" caption_key="xuiMenuExit" font_size="40" />
 		</grid>
 	</window>
+
+	<window name="TRUESURVIVALingameMenu" anchor="CenterCenter" pos="-125,200" width="250" height="200" controller="InGameMenuWindow" cursor_area="true">
+		<texture name="VALMOD" depth="0" size="788,788" texture="@file:Mods\SMX\Textures\Misc\tsmenulogo.png" material="Materials/Transparent Colored" pos="-268,290" />
+		<label name="TRUESURVIVALVersion" pos="190, -55" depth="0" size="250,33" text="" font_size="32" effect="outline" color="[white]" justify="center" /> <!-- SIRILLION: SPIDER, change version here if needed! -->
+		<grid name="buttons" pos="0, -100" cols="1" width="250" cell_width="250" cell_height="56" arrangement="vertical" repeat_content="false" >
+			<simplebutton name="btnOptions" depth="3" width="250" height="46" caption_key="xuiMenuOptions" font_size="40" />
+			<simplebutton name="btnSave" depth="3" width="250" height="46" caption_key="xuiMenuSave" font_size="40" />
+			<simplebutton name="btnExit" depth="3" width="250" height="46" caption_key="xuiMenuExit" font_size="40" />
+		</grid>
+	</window>
 	
 <!-- <<< INGAME MENU <<< -->
 
-<!-- <<< SMX A16.3B3eR2 END - BY SIRILLION >>> -->
+<!-- <<< SMX A16.3B12R1 END - BY SIRILLION >>> -->
 
 	<window name="HUDLeftStatBars">
 		<grid name="hud" pos="9,98" rows="2" cols="1" width="168" cell_width="168" cell_height="46" repeat_content="false" side="left" >
@@ -996,7 +1025,7 @@
 		</rect>
 	</window>
 
-<!-- <<< SMX A16.3B3eR2 START - BY SIRILLION >>> -->	
+<!-- <<< SMX A16.3B12R1 START - BY SIRILLION >>> -->	
 
 <!-- DISABLE this section if playing with the BIGBAG optional. -->
 
@@ -1036,7 +1065,7 @@
 	</window>
 -->
 
-<!-- <<< SMX A16.3B3eR2 END - BY SIRILLION >>> -->
+<!-- <<< SMX A16.3B12R1 END - BY SIRILLION >>> -->
 
 	<!--#$-IGS BEGIN: Adding cursor area. -$#-->
 	<window name="windowToolsForge" width="228" height="121" panel="Right" cursor_area="true" >
